@@ -3,7 +3,7 @@ import streamlit as st
 st.title('Data Analysis')
 st.write('Data Analysis on Automobile Data')
 #df = pd.read_csv('Automobile.csv')
-df = pd.read_csv('/Users/apple/Desktop/Project/Project1/Automobile.csv')
+df = pd.read_csv('https://github.com/Jesteena714/my_first_streamlit_app1/blob/main/Automobile.csv')
 st.dataframe(df)
 st.write('Scatter Plot')
 st.scatter_chart(data=df,  x='length', y='mileage', x_label='Length', y_label='Mileage')
