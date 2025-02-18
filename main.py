@@ -17,4 +17,4 @@ with col2:
 with st.sidebar:
     st.link_button('Know More', 'https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/') 
 with st.sidebar:
-    st.link_button('Analysis','http://localhost:8502/data')
+    st.link_button('Analysis','https://myfirstappapp1-vckr4emapxuhqpjh8db8f8.streamlit.app/data')
